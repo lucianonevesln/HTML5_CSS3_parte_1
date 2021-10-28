@@ -1,0 +1,66 @@
+header {
+    background: #BBBBBB;      /* cor de fundo do cabeçalho da página */
+    padding: 20px 0;            /* espaçamento interno da caixa do cabeçalho da página */
+}
+
+.caixa {
+    position: relative;         /* define como um elemento pode ser posicionado */
+    width: 940px;               /* define a largura do elemento */
+    margin: auto;               /* define a margem do elemento */
+}
+
+nav {
+    position: absolute;         /* neste caso, define que o elemento passará à frente na navegação */
+    right: 0;                   /* posição à direita da navegação */
+    top: 110px;                 /* atribuição de 110 pixels acima da navegação */
+}
+
+nav li {
+    display: inline;            /* define que os itens da lista ficarão dispostos lado a lado */
+    margin: 0 0 0 15px;         /*  */
+}
+
+nav a {
+    text-transform: uppercase;  /* transforma letras minúsculas em maiúsculas */
+    color: #000000;           /* define a cor das palavras */
+    font-weight: bold;          /* define negrito nas palavras */
+    font-size: 22px;            /* define o tamanho das palavras */
+    text-decoration: none;      /* remove o sublinhado da palavra */
+}
+
+.produtos {
+    width: 940px;               /*  */
+    margin: 0 auto;             /*  */
+    padding: 50px 0;            /* espaço interno do elemento */
+}
+
+.produtos li {
+    display: inline-block;      /* define que os elementos serão dispostos em blocos e lado a lado */
+    text-align: center;         /* define que os elementos serão dispostos ao centro */
+    width: 30%;                 /*  */
+    vertical-align: top;        /*  */
+    margin: 0 1.5%;             /*  */
+    padding: 30px 20px;         /*  */
+    box-sizing: border-box;     /*  */
+    border-color: #000000;    /*  */
+    border-width: 2px;          /*  */
+    border-style: solid;        /*  */
+    /* Para facilitar, pode ser escrito dessa maneira:  border: 2px solid #000000; */
+    border-radius: 10px;        /*  */
+}
+
+.produtos h2 {
+    font-size: 30px;            /*  */
+    font-weight: bold;          /*  */
+
+}
+
+.produto-descricao {
+    font-size: 18px;            /*  */
+}
+
+.produto-preco {
+    font-size: 22px;            /*  */
+    font-weight: bold;          /*  */
+    margin-top: 10px;           /*  */
+}
